@@ -13,5 +13,5 @@ int main() {
     cin >> z;
     result0 = (x - y) * (x + z) ;
     result1 = pow(x + y + z, 2) + 1;
-    cout << result0 / result1;
+    cout <<(float) result0 / result1;
 }
